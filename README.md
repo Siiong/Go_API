@@ -25,12 +25,12 @@ There will be possibility to create a collection and add/delete the shoes you ow
 
 #### GET all items 
 ```http
-  GET /snkrs/items
+  GET /snkrs
 ```
 
 #### GET a specific item (by ID)
 ```http
-  GET /snkrs/items/${id}
+  GET /snkrs/${id}
 ```
 
 #### GET your collection
