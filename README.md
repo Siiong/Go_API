@@ -6,7 +6,7 @@ With this API you can visualize a large amount of sneakers with their informatio
 
 - ID 
 - Brand(s)
-- Colour(s) 
+- Colorway(s) 
 - Release Date
 - Retail price
 - Description (history, materials, etc...)
@@ -31,6 +31,11 @@ There will be possibility to create a collection and add/delete the shoes you ow
 #### Retrieves a sneakers by its ID
 ```http
   GET /snkrs/${id}
+```
+
+#### Retrieves a sneakers by its ID with different filters (name, brand, colour, price, etc...)
+```http
+  GET /snkrs/${id}?name=&brand=&cw=&price=
 ```
 
 #### Create a sneakers
