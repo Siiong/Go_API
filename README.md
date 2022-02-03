@@ -1,4 +1,4 @@
-# Sneakers API 
+# Sneakers API - Siong TCHA
 
 ## Description
 
