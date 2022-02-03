@@ -1,22 +1,49 @@
-# Go_API
+# Sneakers API 
 
-Création d'une API pour les Sneakers (paires de chaussure)
+## Description
 
-L'application permettra de visualiser une large variété de paires avec des informations pertinentes sur celles-ci :
+With this API you can visualize a large amount of sneakers with their informations : 
 
-- ID de la paire
-- Nom du modèle 
-- Marque
-- Couleur(s)
-- Date de sortie
-- Prix retail
-- Description (histoire de la paire, description des matériaux, etc...)
+- ID 
+- Brand
+- Colours 
+- Release Date
+- Retail price
+- Description (history, materials, etc...)
 
-Il y aura aussi possibilité de créé une collection afin d'y ajouter les paires que l'on possède ou enlever celles que l'on ne possède plus.
-Cette collection sera également visualisable par d'autres.
+There will be possibility to create a collection and add/delete the shoes you own. This collection can also be visualizable by everyone.
 
-# Installation
+## Installation
 
 ...
 
-# Technologies
+## Technologies
+
+...
+
+## API References
+
+#### GET all items 
+```http
+  GET /snkrs/items
+```
+
+#### GET a specific item (by ID)
+```http
+  GET /snkrs/items/${id}
+```
+
+#### GET your collection
+```http
+  GET /snkrs/collection
+```
+
+#### ADD item to your collection 
+```http
+  POST /snkrs/collection
+```
+
+#### DELETE an item (by ID) 
+```http
+  DELETE /snkrs/collection/${id}
+```
