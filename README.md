@@ -35,15 +35,15 @@ There will be possibility to create a collection and add/delete the shoes you ow
 
 #### GET your collection
 ```http
-  GET /snkrs/collection
+  GET /collections
 ```
 
 #### ADD item to your collection 
 ```http
-  POST /snkrs/collection
+  POST /collections
 ```
 
 #### DELETE an item (by ID) 
 ```http
-  DELETE /snkrs/collection/${id}
+  DELETE /collections/${id}
 ```
