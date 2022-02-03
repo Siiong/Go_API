@@ -45,5 +45,5 @@ There will be possibility to create a collection and add/delete the shoes you ow
 
 #### DELETE an item (by ID) 
 ```http
-  DELETE /collections/${id}
+  DELETE /collections/${id_collection}/snkrs/${id_sneakers}
 ```
