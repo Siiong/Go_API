@@ -5,8 +5,8 @@
 With this API you can visualize a large amount of sneakers with their informations : 
 
 - ID 
-- Brand
-- Colours 
+- Brand(s)
+- Colour(s) 
 - Release Date
 - Retail price
 - Description (history, materials, etc...)
