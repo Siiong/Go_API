@@ -23,27 +23,42 @@ There will be possibility to create a collection and add/delete the shoes you ow
 
 ## API References
 
-#### GET all items 
+#### Retrives all sneakers
 ```http
   GET /snkrs
 ```
 
-#### GET a specific item (by ID)
+#### Retrieves a sneakers by its ID
 ```http
   GET /snkrs/${id}
 ```
 
-#### GET your collection
+#### Create a sneakers
 ```http
-  GET /collections
+  POST /snkrs
 ```
 
-#### ADD item to your collection 
+#### Create a collection
 ```http
   POST /collections
 ```
 
-#### DELETE an item (by ID) 
+#### Retrieves all collections
+```http
+  GET /collections
+```
+
+#### Retrieves your collection by its ID
+```http
+  GET /collections/${id_collection}
+```
+
+#### Add a sneakers to your collection 
+```http
+  POST /collections/${id_collection}
+```
+
+#### Delete a sneakers of a collection by its ID
 ```http
   DELETE /collections/${id_collection}/snkrs/${id_sneakers}
 ```
