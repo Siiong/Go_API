@@ -5,19 +5,15 @@
 With this API you can visualize a large amount of sneakers with their informations : 
 
 - ID 
+- Name
 - Brand(s)
-- Colorway(s) 
-- Release Date
 - Retail price
-- Description (history, materials, etc...)
 
 There will be possibility to create a collection and add/delete the shoes you own. This collection can also be visualizable by everyone.
 
 ## Installation
 
-...
-
-## Technologies
+### Local installation 
 
 ...
 
@@ -60,7 +56,7 @@ There will be possibility to create a collection and add/delete the shoes you ow
 
 #### Add a sneakers to your collection 
 ```http
-  POST /collections/${id_collection}
+  POST /collections/${id_collection}/snkrs/${id_sneakers}
 ```
 
 #### Delete a sneakers of a collection by its ID
