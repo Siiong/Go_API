@@ -1,0 +1,32 @@
+{
+    {
+      "id": "01",
+      "name": "Sacaï Vaporwaffle",
+      "brand": "Nike",
+      "price": 160
+    },
+    {
+      "id": "02",
+      "name": "Yeezy 700 Wave Runner",
+      "brand": "Adidas",
+      "price": 240
+    }
+    {
+      "id": "03",
+      "name": "Air Max 1 Patta",
+      "brand": "Nike",
+      "price": 160
+    }
+    {
+      "id": "04",
+      "name": "New Balance 550",
+      "brand": "New Balance",
+      "price": 200
+    }
+    {
+      "id": "05",
+      "name": "Air Jordan 1",
+      "brand": "Nike",
+      "price": 140
+    }
+}
